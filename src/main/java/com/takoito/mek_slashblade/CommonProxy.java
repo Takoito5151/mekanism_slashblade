@@ -27,7 +27,7 @@ public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
         Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
 
-        spa = new Item().setCreativeTab(SlashBlade.tab)
+        spa = new Item()
             .setUnlocalizedName("SPA")
             .setTextureName("mek_slashblade:spa");
 
